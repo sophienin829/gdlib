@@ -40,8 +40,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation files('../libs/network.aar')
-    implementation files('../libs/foundation.aar')
+    compileOnly files('../libs/network.aar')
+    compileOnly files('../libs/foundation.aar')
 
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
